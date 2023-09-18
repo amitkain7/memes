@@ -1,0 +1,21 @@
+.meme-nav {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    padding-left: 20px;
+    background:  linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    color:  #FFFFFF;
+    ;
+    
+}
+
+
+.meme-nav > h3{
+    font-weight: bold;
+}
+
+.meme-nav > h5{
+    margin-left: 1100px;
+  
+}

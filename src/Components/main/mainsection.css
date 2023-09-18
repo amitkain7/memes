@@ -1,0 +1,95 @@
+.meme-div{
+
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+
+   padding: 20px 10px;
+}
+
+.meme-div >form{
+    
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 600px;
+    margin-left: 400px;
+
+}
+form input{
+   padding: 2px 6px; 
+   border-radius: 5px;
+}
+
+.meme-div button{
+     max-width: 400px;
+     margin-left: 500px;
+     border-radius: 5px;
+     background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+     padding: 2px 2px 4px 2px;
+     color: aliceblue;
+
+}
+
+.imgdiv{
+    position: relative;
+    margin-top: 10px;
+   display: inline-block;
+   width: 600px;
+   height: 600px;
+   padding: 30px 0px 0px 100px;
+   
+   margin-left: 400px;
+  
+}
+
+.imgdiv img{
+    position: absolute;
+    width: 400px;
+   height: 300px;
+   border-radius: 10px;
+}
+
+
+#top{
+   position: absolute;
+   top:50px ;
+   left:240px;
+   color: white;
+   text-transform: uppercase;
+   text-shadow:
+   2px 2px 0 #000,
+   -2px -2px 0 #000,
+   2px -2px 0 #000,
+   -2px 2px 0 #000,
+   0 2px 0 #000,
+   2px 0 0 #000,
+   0 -2px 0 #000,
+   -2px 0 0 #000,
+   2px 2px 5px #000;
+  
+    
+}
+#bottom{
+    position: absolute;
+    top: 270px;
+    left:240px ;
+    color: white;
+    text-transform: uppercase;
+    text-shadow:
+    2px 2px 0 #000,
+    -2px -2px 0 #000,
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+    0 2px 0 #000,
+    2px 0 0 #000,
+    0 -2px 0 #000,
+    -2px 0 0 #000,
+    2px 2px 5px #000;
+    
+ }
+
+ button{
+   cursor: pointer;
+ }
