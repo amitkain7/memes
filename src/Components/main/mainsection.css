@@ -1,61 +1,56 @@
 .meme-div{
-
-    height: 500px;
-    display: flex;
-    flex-direction: column;
-
-   padding: 20px 10px;
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .meme-div >form{
-    
-    margin-bottom: 20px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 600px;
-    margin-left: 400px;
-
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-around;
+  gap: 4px;
+ 
 }
+
 form input{
-   padding: 2px 6px; 
-   border-radius: 5px;
-}
-
-.meme-div button{
-     max-width: 400px;
-     margin-left: 500px;
-     border-radius: 5px;
-     background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
-     padding: 2px 2px 4px 2px;
-     color: aliceblue;
-
-}
-
-.imgdiv{
-    position: relative;
-    margin-top: 10px;
-   display: inline-block;
-   width: 600px;
-   height: 600px;
-   padding: 30px 0px 0px 100px;
-   
-   margin-left: 400px;
+  outline: none;
+  color: gray;
+  border-radius: 10px;
+ 
   
 }
 
+.meme-div button{
+   margin-bottom: 2rem;
+   padding: 4px 20px;
+   border-radius: 10px;
+   background: rgb(197, 69, 197);
+   color: white;
+   border: none;
+   
+}
+
+.imgdiv{
+  width: 400px;
+  height: 300px;
+  border-radius: 10px;
+  background: #000;
+  position: relative;
+}
+
 .imgdiv img{
-    position: absolute;
-    width: 400px;
-   height: 300px;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
    border-radius: 10px;
 }
 
 
 #top{
    position: absolute;
-   top:50px ;
-   left:240px;
+   top:20px ;
+   left:20px;
    color: white;
    text-transform: uppercase;
    text-shadow:
@@ -68,13 +63,13 @@ form input{
    0 -2px 0 #000,
    -2px 0 0 #000,
    2px 2px 5px #000;
-  
+   overflow-x: hidden;
     
 }
 #bottom{
     position: absolute;
-    top: 270px;
-    left:240px ;
+    bottom: 10px;
+    right: 10px;
     color: white;
     text-transform: uppercase;
     text-shadow:
@@ -87,9 +82,5 @@ form input{
     0 -2px 0 #000,
     -2px 0 0 #000,
     2px 2px 5px #000;
-    
- }
-
- button{
-   cursor: pointer;
+    overflow-x: hidden;
  }
