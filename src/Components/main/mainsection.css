@@ -17,6 +17,7 @@ form input{
   outline: none;
   color: gray;
   border-radius: 10px;
+  padding : 2px 3px;
  
   
 }
@@ -28,7 +29,7 @@ form input{
    background: rgb(197, 69, 197);
    color: white;
    border: none;
-  cursor : pointer
+   cursor : pointer;
    
 }
 
