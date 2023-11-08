@@ -61,7 +61,7 @@ function Main() {
 
         />
       </form>
-      <button onClick={getrandomImg} >Get a new meme image  🖼</button>
+      <button  onClick={getrandomImg} >Get a new meme image  🖼</button>
 
       <div className='imgdiv'>
         <img src={memedata.url} />
